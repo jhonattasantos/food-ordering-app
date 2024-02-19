@@ -11,7 +11,7 @@ export default function MobileNav() {
         </SheetTrigger>
         <SheetContent className='space-y-3'>
             <SheetTitle>
-                <span>Welcome to MernEats.com!</span>
+                <span>Welcome to foodApp.com!</span>
             </SheetTitle>
             <Separator />
             <SheetDescription className='flex'>
