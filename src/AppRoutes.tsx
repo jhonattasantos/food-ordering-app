@@ -14,9 +14,9 @@ const AppRoutes = () => {
                 
             <Route element={<ProtectedRoute />}>
                 <Route path="/user-profile" element={<Layout><UserProfile /></Layout>} / >
+                <Route path="/manage-restaurant" element={<Layout><ManageRestarant /></Layout>} / >
             </Route>
             
-            <Route path="/manage-restaurant" element={<Layout><ManageRestarant /></Layout>} / >
 
             <Route path="/*" element={<Navigate to="/" />} />
         </Routes>
